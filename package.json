@@ -1,0 +1,25 @@
+{
+  "name": "ohana-oi",
+  "version": "1.0.0",
+  "description": "AI Assistant with Open Interpreter integration for Raspberry Pi control",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx ts-node src/index.ts",
+    "dev": "npx ts-node-dev --respawn src/index.ts"
+  },
+  "dependencies": {
+    "@types/ws": "^8.5.10",
+    "dotenv": "^16.3.1",
+    "openai": "^4.73.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.2",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^22.9.4",
+    "rich-console": "^0.0.4"
+  }
+}
